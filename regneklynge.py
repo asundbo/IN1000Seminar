@@ -1,7 +1,6 @@
 from node import Node
 from rack import Rack
 
-
 class Regneklynge:
     # Oppretter en regneklynge og setter maks antall
     # det er plass til i et rack

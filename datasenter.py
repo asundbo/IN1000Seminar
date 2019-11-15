@@ -27,14 +27,17 @@ class Datasenter:
 	## Skriver ut informasjon om alle regneklyngene
 	#
 	def skrivUtAlleRegneklynger(self):
-		pass
+		for regneklynge in self._ordbok:
+			print("Regneklynge: " + regneklynge)
+			self.skrivUtRegneklynge(regneklynge)
 
 	## Skriver ut informasjon om en spesifikk regeklynge
 	# @param navn navnet på regnekyngen
 	def skrivUtRegneklynge(self, navn):
-		pass
+		# todo: endre metodenavn til å stemme med regneklynge
+		print(self._ordbok[navn].hentAntallPros()) 
 
-
+# tester
 datasenter = Datasenter()
 datasenter.lesInnRegneklynge("abel.txt")
 print(datasenter._ordbok)

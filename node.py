@@ -15,6 +15,6 @@ class Node:
     #  @param paakrevdMinne GB minne som kreves for programmet
     #  @return True hvis noden har minst så mye minne
     def nokMinne(self, paakrevdMinne):
-        if self._mine >= paakrevdMinne:
+        if self._minne >= paakrevdMinne:
             return True
         return False

@@ -5,6 +5,7 @@ class Datasenter:
 	## Oppretter et datasenter
 	#
 	def __init__(self):
+
 		pass
 
 	## Leser inn data om en regneklynge fra fil og legger

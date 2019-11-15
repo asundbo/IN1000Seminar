@@ -1,4 +1,5 @@
-12
-650 64 1
-16 1024 2
+12		# max noder per rack
+650 64 1	# antallnoder minnePerNode AntallProsessorer per node
+16 1024 2	# antallnoder minnePerNode AntallProsessorer per node
+
 

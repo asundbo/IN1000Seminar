@@ -1,4 +1,0 @@
-Datasenter
-Regneklynge
-Rack
-Node 
